@@ -64,6 +64,7 @@ npm run dev
 
 ## 🧩 Folder Structure
 cross-chain-bridge-visualizer/
+```
 ├── src/
 │   ├── components/       # GraphCanvas, ControlsPanel, DetailsPane
 │   ├── data/             # Mock bridges data
