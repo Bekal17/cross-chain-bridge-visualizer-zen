@@ -45,13 +45,15 @@ cd cross-chain-bridge-visualizer
 ---
 
 ### 2️⃣ Install dependencies
-```npm install
+```bash
+npm install
 ```
 
 ---
 
 ### 3️⃣ Run development server
-```npm run dev
+```bash
+npm run dev
 ```
 
 ---
