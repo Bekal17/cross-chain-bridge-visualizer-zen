@@ -39,16 +39,16 @@ It visualizes **nodes** (blockchains) and **edges** (bridges/protocols) with **v
 ```bash
 git clone https://github.com/Bekal17/cross-chain-bridge-visualizer-zen.git
 cd cross-chain-bridge-visualizer
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 npm install
 
-3️⃣ Run development server
+### 3️⃣ Run development server
 npm run dev
 
 
-Now open 👉 http://localhost:5173
+### Now open 👉 http://localhost:5173
 
-🧩 Folder Structure
+### 🧩 Folder Structure
 cross-chain-bridge-visualizer/
 ├── src/
 │   ├── components/       # GraphCanvas, ControlsPanel, DetailsPane
