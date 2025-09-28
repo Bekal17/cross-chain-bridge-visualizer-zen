@@ -39,16 +39,24 @@ It visualizes **nodes** (blockchains) and **edges** (bridges/protocols) with **v
 ```bash
 git clone https://github.com/Bekal17/cross-chain-bridge-visualizer-zen.git
 cd cross-chain-bridge-visualizer
-## 2️⃣ Install dependencies
+
+---
+
+### 2️⃣ Install dependencies
 npm install
 
-## 3️⃣ Run development server
+---
+
+### 3️⃣ Run development server
 npm run dev
 
+---
 
-## Now open 👉 http://localhost:5173
+### Now open 👉 http://localhost:5173
 
-# 🧩 Folder Structure
+---
+
+## 🧩 Folder Structure
 cross-chain-bridge-visualizer/
 ├── src/
 │   ├── components/       # GraphCanvas, ControlsPanel, DetailsPane
@@ -63,30 +71,41 @@ cross-chain-bridge-visualizer/
 ├── package.json
 └── README.md
 
-# 🧠 Tech Stack
+---
+
+## 🧠 Tech Stack
 Layer	Technology
 Frontend	React 18 + Vite
 Visualization	D3.js
 Styling	TailwindCSS
 Data	Static JSON (mock), extendable via API
 Tooling	npm, Git, Vite
-# 🛠️ Extend with Live Data
+
+---
+
+## 🛠️ Extend with Live Data
 
 Replace src/data/mock-bridges.json with a live API call from:
 
-# 🧭 The Graph (Subgraphs for bridge metrics)
+## 🧭 The Graph (Subgraphs for bridge metrics)
 
-# 📊 Covalent API (on-chain volume & transactions)
+---
+
+## 📊 Covalent API (on-chain volume & transactions)
 
 🪄 Custom Indexer (REST/GraphQL)
 
 You can update useBridgeData.js to fetch data dynamically.
 
-📜 License
+---
+
+## 📜 License
 
 MIT License © 2025 — Built with ❤️ for the open-source community.
 
-⭐ Contribute
+---
+
+## ⭐ Contribute
 
 Want to improve this project?
 
