@@ -82,12 +82,12 @@ cross-chain-bridge-visualizer/
 ---
 
 ## 🧠 Tech Stack
-Layer	Technology
-Frontend	React 18 + Vite
-Visualization	D3.js
-Styling	TailwindCSS
-Data	Static JSON (mock), extendable via API
-Tooling	npm, Git, Vite
+- Layer	Technology
+- Frontend	React 18 + Vite
+- Visualization	D3.js
+- Styling	TailwindCSS
+- Data	Static JSON (mock), extendable via API
+- Tooling	npm, Git, Vite
 
 ---
 
