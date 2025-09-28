@@ -1,23 +1,150 @@
 {
-  "nodes": [
-    { "id": "ethereum", "label": "Ethereum", "chainId": 1 },
-    { "id": "polygon", "label": "Polygon", "chainId": 137 },
-    { "id": "arbitrum", "label": "Arbitrum", "chainId": 42161 }
+  "chains": [
+    { "id": 1, "name": "Ethereum", "symbol": "ETH" },
+    { "id": 137, "name": "Polygon", "symbol": "MATIC" },
+    { "id": 42161, "name": "Arbitrum", "symbol": "ETH" },
+    { "id": 10, "name": "Optimism", "symbol": "ETH" },
+    { "id": 43114, "name": "Avalanche", "symbol": "AVAX" },
+    { "id": 56, "name": "BNB Chain", "symbol": "BNB" },
+    { "id": 8453, "name": "Base", "symbol": "ETH" },
+    { "id": 324, "name": "zkSync Era", "symbol": "ETH" },
+    { "id": 59144, "name": "Linea", "symbol": "ETH" },
+    { "id": 534352, "name": "Scroll", "symbol": "ETH" },
+    { "id": 7000, "name": "ZenChain", "symbol": "ZEN" }
   ],
-  "links": [
+  "bridges": [
     {
-      "source": "ethereum",
-      "target": "polygon",
-      "protocol": "Hop",
-      "volumeUSD": 1200000,
-      "txCount": 450
+      "protocol": "Hop Exchange",
+      "from": "Ethereum",
+      "to": "Polygon",
+      "tokens": ["USDC", "ETH", "DAI"],
+      "volumeUSD": 125000000
     },
     {
-      "source": "polygon",
-      "target": "arbitrum",
+      "protocol": "Hop Exchange",
+      "from": "Ethereum",
+      "to": "Arbitrum",
+      "tokens": ["USDC", "ETH"],
+      "volumeUSD": 98000000
+    },
+    {
+      "protocol": "Hop Exchange",
+      "from": "Ethereum",
+      "to": "Optimism",
+      "tokens": ["ETH", "USDC"],
+      "volumeUSD": 86000000
+    },
+    {
       "protocol": "LayerZero",
-      "volumeUSD": 350000,
-      "txCount": 120
+      "from": "Ethereum",
+      "to": "BNB Chain",
+      "tokens": ["USDT", "USDC", "ETH"],
+      "volumeUSD": 190000000
+    },
+    {
+      "protocol": "LayerZero",
+      "from": "Ethereum",
+      "to": "Avalanche",
+      "tokens": ["USDC", "ETH"],
+      "volumeUSD": 210000000
+    },
+    {
+      "protocol": "LayerZero",
+      "from": "Ethereum",
+      "to": "Base",
+      "tokens": ["USDC", "ETH"],
+      "volumeUSD": 50000000
+    },
+    {
+      "protocol": "Stargate",
+      "from": "Ethereum",
+      "to": "Polygon",
+      "tokens": ["USDT", "USDC"],
+      "volumeUSD": 300000000
+    },
+    {
+      "protocol": "Stargate",
+      "from": "Ethereum",
+      "to": "Arbitrum",
+      "tokens": ["USDC"],
+      "volumeUSD": 210000000
+    },
+    {
+      "protocol": "Stargate",
+      "from": "Arbitrum",
+      "to": "Optimism",
+      "tokens": ["USDC"],
+      "volumeUSD": 95000000
+    },
+    {
+      "protocol": "Celer cBridge",
+      "from": "Ethereum",
+      "to": "zkSync Era",
+      "tokens": ["ETH", "USDT", "USDC"],
+      "volumeUSD": 72000000
+    },
+    {
+      "protocol": "Celer cBridge",
+      "from": "Ethereum",
+      "to": "Linea",
+      "tokens": ["ETH", "USDC"],
+      "volumeUSD": 55000000
+    },
+    {
+      "protocol": "Celer cBridge",
+      "from": "Ethereum",
+      "to": "Scroll",
+      "tokens": ["ETH", "USDC"],
+      "volumeUSD": 43000000
+    },
+    {
+      "protocol": "Synapse",
+      "from": "Ethereum",
+      "to": "Arbitrum",
+      "tokens": ["nUSD", "ETH"],
+      "volumeUSD": 110000000
+    },
+    {
+      "protocol": "Synapse",
+      "from": "Ethereum",
+      "to": "Avalanche",
+      "tokens": ["nUSD", "ETH"],
+      "volumeUSD": 87000000
+    },
+    {
+      "protocol": "ZenChain CCIM",
+      "from": "ZenChain",
+      "to": "Ethereum",
+      "tokens": ["ZEN", "ETH", "USDC"],
+      "volumeUSD": 62000000
+    },
+    {
+      "protocol": "ZenChain CCIM",
+      "from": "ZenChain",
+      "to": "Arbitrum",
+      "tokens": ["ZEN", "ETH", "USDC"],
+      "volumeUSD": 45000000
+    },
+    {
+      "protocol": "ZenChain CCIM",
+      "from": "ZenChain",
+      "to": "Polygon",
+      "tokens": ["ZEN", "MATIC", "USDC"],
+      "volumeUSD": 38000000
+    },
+    {
+      "protocol": "ZenChain CCIM",
+      "from": "ZenChain",
+      "to": "Base",
+      "tokens": ["ZEN", "ETH"],
+      "volumeUSD": 27000000
+    },
+    {
+      "protocol": "ZenChain CCIM",
+      "from": "ZenChain",
+      "to": "zkSync Era",
+      "tokens": ["ZEN", "ETH"],
+      "volumeUSD": 22000000
     }
   ]
 }
