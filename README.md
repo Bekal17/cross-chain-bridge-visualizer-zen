@@ -82,12 +82,14 @@ cross-chain-bridge-visualizer/
 ---
 
 ## 🧠 Tech Stack
-- Layer	Technology
-- Frontend	React 18 + Vite
-- Visualization	D3.js
-- Styling	TailwindCSS
-- Data	Static JSON (mock), extendable via API
-- Tooling	npm, Git, Vite
+| Layer         | Technology                             |
+| ------------- | -------------------------------------- |
+| Frontend      | React 18 + Vite                        |
+| Visualization | D3.js                                  |
+| Styling       | TailwindCSS                            |
+| Data          | Static JSON (mock), extendable via API |
+| Tooling       | npm, Git, Vite                         |
+
 
 ---
 
@@ -95,13 +97,11 @@ cross-chain-bridge-visualizer/
 
 Replace src/data/mock-bridges.json with a live API call from:
 
-## 🧭 The Graph (Subgraphs for bridge metrics)
+- 🧭 The Graph (Subgraphs for bridge metrics)
 
----
+-  📊 Covalent API (on-chain volume & transactions)
 
-## 📊 Covalent API (on-chain volume & transactions)
-
-🪄 Custom Indexer (REST/GraphQL)
+-  Custom Indexer (REST/GraphQL)
 
 You can update useBridgeData.js to fetch data dynamically.
 
@@ -126,3 +126,6 @@ Commit changes (git commit -m "Add feature")
 Push to branch (git push origin feature/new-feature)
 
 Create a Pull Request 🚀
+
+
+
