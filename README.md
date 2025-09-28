@@ -64,7 +64,7 @@ npm run dev
 
 ## 🧩 Folder Structure
 cross-chain-bridge-visualizer/
-```
+``
 ├── src/
 │   ├── components/       # GraphCanvas, ControlsPanel, DetailsPane
 │   ├── data/             # Mock bridges data
@@ -77,6 +77,7 @@ cross-chain-bridge-visualizer/
 ├── tailwind.config.js
 ├── package.json
 └── README.md
+``
 
 ---
 
