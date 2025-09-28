@@ -45,7 +45,6 @@ cd cross-chain-bridge-visualizer```
 
 ### 2️⃣ Install dependencies
 ```npm install
-```
 
 ---
 
