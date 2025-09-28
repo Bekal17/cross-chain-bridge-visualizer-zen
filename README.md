@@ -37,18 +37,18 @@ It visualizes **nodes** (blockchains) and **edges** (bridges/protocols) with **v
 ### 1️⃣ Clone this repository
 
 bash
-git clone https://github.com/Bekal17/cross-chain-bridge-visualizer-zen.git
-cd cross-chain-bridge-visualizer
+```git clone https://github.com/Bekal17/cross-chain-bridge-visualizer-zen.git
+cd cross-chain-bridge-visualizer```
 
 ---
 
 ### 2️⃣ Install dependencies
-npm install
+```npm install
 
 ---
 
 ### 3️⃣ Run development server
-npm run dev
+```npm run dev
 
 ---
 
