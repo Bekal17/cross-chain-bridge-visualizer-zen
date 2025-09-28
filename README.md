@@ -36,9 +36,9 @@ It visualizes **nodes** (blockchains) and **edges** (bridges/protocols) with **v
 
 ### 1️⃣ Clone this repository
 
-```bash
+bash
 git clone https://github.com/Bekal17/cross-chain-bridge-visualizer-zen.git
-cd cross-chain-bridge-visualizer```
+cd cross-chain-bridge-visualizer
 
 ---
 
