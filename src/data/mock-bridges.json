@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    { "id": "ethereum", "label": "Ethereum", "chainId": 1 },
+    { "id": "polygon", "label": "Polygon", "chainId": 137 },
+    { "id": "arbitrum", "label": "Arbitrum", "chainId": 42161 }
+  ],
+  "links": [
+    {
+      "source": "ethereum",
+      "target": "polygon",
+      "protocol": "Hop",
+      "volumeUSD": 1200000,
+      "txCount": 450
+    },
+    {
+      "source": "polygon",
+      "target": "arbitrum",
+      "protocol": "LayerZero",
+      "volumeUSD": 350000,
+      "txCount": 120
+    }
+  ]
+}
